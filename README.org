@@ -1,0 +1,24 @@
+* Credits where Credits are due
+This is a fork of MrGlockenspiel's program "activate linux". I hardly did anything except altering the displayed text and the README and build files.
+
+* What is this?
+This program Displays an "Activate Arch prompt" similar to what Micro$oft Winshit displays, when you haven't activated your current install with a license.
+
+* Building
+** Prerequisites:
+- cairo (Hard dependency, won't run without it)
+- clang (Required for compiling)
+
+** Building:
+#+BEGIN_SRC bash
+chmod 755 build.sh
+./build.sh
+#+END_SRC
+
+** Running:
+Just run
+#+BEGIN_SRC bash
+./activate_linux
+#+END_SRC
+in the directory the file is in.
+Alternatively, you could copy the files over to /usr/bin and run it as any other program.
